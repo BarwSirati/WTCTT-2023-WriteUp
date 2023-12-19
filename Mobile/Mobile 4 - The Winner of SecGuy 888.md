@@ -34,7 +34,7 @@ Put debug key in body. I got hidden_action, Let's use it.
 
 Result was told you about your balance is not sufficient. it's require 31337.
 
-![[Pasted image 20231219103204.png]]
+![[./assets/mobile4/11.png]]
 
 After a bit of thought, it got to me that if I transmit the bet in minus digits, the API will update the amount to something like your balance -(- bet). Remember spin_slot mode !!!!
 

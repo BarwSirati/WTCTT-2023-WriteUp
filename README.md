@@ -7,10 +7,10 @@
 ร่วมกับบริษัท หัวเว่ย เทคโนโลยี่ (ประเทศไทย) จำกัด
 มุ่งหวังให้นักเรียน นิสิต นักศึกษา และประชาชนทั่วไป ที่เป็นผู้หญิงหรือมีเพศสภาพเป็นหญิงได้เรียนรู้ เพิ่มทักษะ และพัฒนาประสบการณ์ เพื่อให้เป็นบุคลากรที่มีความรู้ความสามารถด้านความมั่นคงปลอดภัยไซเบอร์ และเป็นการสร้างศักยภาพบุคลากรไซเบอร์ในระดับองค์กรหรือทั่วไปและส่งเสริมให้ผู้หญิงทุกคนมีสิทธิ และใช้สิทธิในการแสดงออกถึงศักยภาพของตนได้อย่างเต็มที่
 
-- Web Application
+- [Web Application](./Web%20Application/README.md)
 - Digital Forensic
 - Reverse Engineering & Pwnable
 - Network Security
-- [Mobile Security](./Mobile/README.md)
+- [Mobile Security](./Mobile%20Security/README.md)
 - Programming
 - Cryptography

@@ -8,10 +8,10 @@ __SHA256 Checksum__ : 450c8abb1ec0b4ffc18f4c3992007738c8439e8d8d6a6d22a3e8ebbed0
 
 #### Solution
 Reverse APK with JadX
-![[./assets/mobile1/1.png]]
+![1.png](./assets/mobile1/1.png)
 
 See In Resources > resources.arsc > res > values > strings.xml , In this file you can see all  static content that your code uses
 
-![[./assets/mobile1/2.png]]
+![2.png](./assets/mobile1/2.png)
 
 Yummy get flag in base32 format just decode it. XD!!

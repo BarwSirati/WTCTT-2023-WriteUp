@@ -8,42 +8,42 @@ __SHA256 Checksum__ : 450c8abb1ec0b4ffc18f4c3992007738c8439e8d8d6a6d22a3e8ebbed0
 
 #### Solution
 See In code, we will find api path that we can use to spin slot but we don't know how much of balance.
-![[./assets/mobile4/1.png]]
+![1.png](./assets/mobile4/1.png)
 
 I found getBalance() now use it to see my balance.
 
-![[./assets/mobile4/2.png]]
+![2.png](./assets/mobile4/2.png)
 
 Generate POST API by yourself if you can't I think skill issue!!  Just Kidding
 
-![[./assets/mobile4/3.png]]
+![3.png](./assets/mobile4/3.png)
 
-![[./assets/mobile4/4.png]]
+![4.png](./assets/mobile4/4.png)
 
 If you see in code you will find this function that told you about API is debug mode.
 
-![[./assets/mobile4/5.png]]
+![5.png](./assets/mobile4/5.png)
 
 Craft API for spin slot. After spin without debug key in body, I got no reward
 
-![[./assets/mobile4/6.png]]
+![6.png](./assets/mobile4/6.png)
 
 Put debug key in body. I got hidden_action, Let's use it.
 
-![[./assets/mobile4/7.png]]
+![7.png](./assets/mobile4/7.png)
 
 Result was told you about your balance is not sufficient. it's require 31337.
 
-![[./assets/mobile4/11.png]]
+![11.png](./assets/mobile4/11.png)
 
 After a bit of thought, it got to me that if I transmit the bet in minus digits, the API will update the amount to something like your balance -(- bet). Remember spin_slot mode !!!!
 
-![[./assets/mobile4/8.png]]
+![8.png](./assets/mobile4/8.png)
 
 My balance is 99999
 
-![[./assets/mobile4/9.png]]
+![9.png](./assets/mobile4/9.png)
 
-![[./assets/mobile4/10.png]]
+![10.png](./assets/mobile4/10.png)
 
 Yummy, we got FLAG4. XD!!!

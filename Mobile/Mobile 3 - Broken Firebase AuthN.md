@@ -8,7 +8,7 @@ __SHA256 Checksum__ : 450c8abb1ec0b4ffc18f4c3992007738c8439e8d8d6a6d22a3e8ebbed0
 
 #### Solution
 We still on strings.xml. if you scroll down, you will find firebase credential.
-![[./assets/mobile3/1.png]]
+![1.png](./assets/mobile3/1.png)
 
 After discovering the credential, I looked up how to use apiKey; however, in order to use it, we must develop a program. I use nodeJs to develop a program
 
@@ -51,14 +51,14 @@ createUserWithEmailAndPassword(auth, "someEmail", "somePassword").then((res) => 
 
 Run code for register and you will get user for login to application, comment create function and uncomment sign function.
 
-![[./assets/mobile3/2.png]]
+![2.png](./assets/mobile3/2.png)
 
 but we don't know login path, Let's find it
 
-![[./assets/mobile3/3.png]]
+![3.png](./assets/mobile3/3.png)
 
 Finally we found this function that told you about api path and how to use it.
 
-![[./assets/mobile3/4.png]]
+![4.png](./assets/mobile3/4.png)
 
 Yummy, we got FLAG3. XD!!!
